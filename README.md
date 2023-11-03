@@ -38,3 +38,29 @@ MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose
 ```
 
 
+ * In cases of competitive exclusion (species i always drives species j to extinction), we inferred that 𝛼𝑖𝑗 < 1 and 𝛼𝑗𝑖 > 1. For bistability (the high-abundance species drives the low-abundance one to extinction), we inferred that 𝛼𝑖𝑗 > 1 and 𝛼𝑗𝑖 > １．
+
+Commensialism – where one species benefits while the other is unaffected.
+Mutualism – both species benefit.
+Parasitism – one species benefits while one is harmed.
+Competition – neither benefits.
+Predation – one species benefits while the other dies, and
+Neutralism – both species unaffected.
+Amensalism is an ecological interaction between two species, but in this association among organisms of two different species, one is destroyed or inhibited, and the other remains unaffected
+
+||<1|=1|>1|
+|<1|Mutualism|Commensialism|Predation|
+|=1|Commensialism|Neutralism|Amensalism|
+|>1|Predation/Parasitism|amensalism|Competition|
+
+| |<1|＝１｜>１｜
+｜－｜－|－｜－--df｜
+｜<１｜ｃｏｏｐｅｒａｔｉｏｎ｜｜｜
+｜＝１｜｜｜｜
+｜>１｜｜｜ｃｏｍｐｅｔｉｔｉｏｎ｜
+
+
+
+Numerical methods
+We modeled the long-term dynamics and diversity of ecological communities using the wellknown generalized Lotka-Volterra (gLV) model, modified to include dispersal from a species pool:
+
