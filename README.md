@@ -48,19 +48,16 @@ Predation – one species benefits while the other dies, and
 Neutralism – both species unaffected.
 Amensalism is an ecological interaction between two species, but in this association among organisms of two different species, one is destroyed or inhibited, and the other remains unaffected
 
-||<1|=1|>1|
-|<1|Mutualism|Commensialism|Predation|
+| | <1 | =1 | >1 |
+|-|-|-|-|
+| <1 |Mutualism|Commensialism|Predation|
 |=1|Commensialism|Neutralism|Amensalism|
 |>1|Predation/Parasitism|amensalism|Competition|
 
-| |<1|＝１｜>１｜
-｜－｜－|－｜－--df｜
-｜<１｜ｃｏｏｐｅｒａｔｉｏｎ｜｜｜
-｜＝１｜｜｜｜
-｜>１｜｜｜ｃｏｍｐｅｔｉｔｉｏｎ｜
+
 
 
 
 Numerical methods
-We modeled the long-term dynamics and diversity of ecological communities using the wellknown generalized Lotka-Volterra (gLV) model, modified to include dispersal from a species pool:
+We modeled the long-term dynamics and diversity of ecological communities using the well known generalized Lotka-Volterra (gLV) model, modified to include dispersal from a species pool:
 
