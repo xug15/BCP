@@ -227,7 +227,7 @@ calculate_second_interaction=function(relative_abundance,relative_abundancet_ful
 
 }
    
-    print("the result process here.")
+    #print("the result process here.")
     
     #返回的结果是相关互作系数
     #The returned result is the correlation interaction coefficient
@@ -370,7 +370,7 @@ calculate_second_interaction=function(relative_abundance,relative_abundancet_ful
 row.names(alpa)=row.names(relative_abundance)
 colnames(alpa)=row.names(relative_abundance)
 #print(alpa)
-write.csv(alpa,args[2])
+write.csv(alpa,paste0(args[2],".csv"))
 ##############
 predict_abundance2=function(alpa,relative_abundance,specisNum){
   
