@@ -1,5 +1,6 @@
 # Implementation
-## 1. Calculate the interaction between species.
+
+## 1. Calculate the interaction between species. 
 ```r
 Rscript script/a1.calculate_alpamatrix.with.plot.r data/abandence/b2.hn.b123.bacteria.abundance.csv  data/interaction/b2.hn.b123
 Rscript script/a1.calculate_alpamatrix.with.plot.r data/abandence/b2.hn.b101112.bacteria.abundance.csv data/interaction/b2.hn.b101112
@@ -31,6 +32,18 @@ grep -v '""' b4.hn.interaction.csv > b4.hn.csv
 cut -f 2,3,4 -d ',' b4.hn.csv > b4.hn.interaction.csv
 rm b4.hn.csv
 cd ../..
+```
+
+## 3. Annotation pathway and gene in bacteria.
+```sh
+
+abun='data/annotation/16s.abun.tsv'
+fasta='data/annotation/16s_sequence.fa'
+output='data/annotation/bacteria_function'
+echo "MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose"
+MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose
+
+
 ```
 
 
