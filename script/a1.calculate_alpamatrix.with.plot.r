@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 #v1.6 to 1.7
-print("Calinter.R abundance.csv output.csv")
+print("CalInter.R abundance.csv output.csv")
 rm(list=ls())
 
 #read bacteria abundance file
@@ -369,8 +369,8 @@ calculate_second_interaction=function(relative_abundance,relative_abundancet_ful
 row.names(relative_abundance)
 row.names(alpa)=row.names(relative_abundance)
 colnames(alpa)=row.names(relative_abundance)
-alpa
-print(alpa)
+#print(alpa)
+write.csv(alpa,args[2])
 ##############
 predict_abundance2=function(alpa,relative_abundance,specisNum){
   
@@ -409,6 +409,7 @@ predict_abundance2=function(alpa,relative_abundance,specisNum){
   }
   
   #t(NN)
+  pdf(paste0(args[2],".pdf") )
   par(mfrow=c(2,1)) 
   
   matplot(seq_len(dim(NN)[1]), NN, type='l',lwd=2,
@@ -417,6 +418,7 @@ predict_abundance2=function(alpa,relative_abundance,specisNum){
   matplot(seq_len(dim( t(relative_abundance))[1]),t(relative_abundance),type="l",ylim=c(0,1),lwd=2,
           xlab = "Time", ylab = expression(Real~Species~Abundance~N[i]),main="Real")
   legend("topright", colnames( t(relative_abundance) ),col=seq_len( dim( t(relative_abundance) )[2] ), lty=seq_len(dim( t(relative_abundance) )[2]), lwd=2  )
+  dev.off()
   sum=0
   for(ii in 1:dim(NN)[1]){
     #print('relative')
@@ -427,7 +429,7 @@ predict_abundance2=function(alpa,relative_abundance,specisNum){
       sum=sum+(relative_abundance[jj,ii]-NN[ii,jj])^2
     }
   }
-  print(sum)
+  #print(sum)
   return(NN)
 }
 
