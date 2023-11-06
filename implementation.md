@@ -39,10 +39,31 @@ cd ../..
 
 abun='data/annotation/16s.abun.tsv'
 fasta='data/annotation/16s_sequence.fa'
-output='data/annotation/bacteria_function'
+output='data/annotation/mic'
 echo "MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose"
 MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose
 
+cp ${output}/
+
+```
+## 4. extract useful message from annotation files.
+```sh
+cp data/annotation/mic/out.blast data/annotation/species.txt
+cp data/annotation/mic/CAZymes_metagenome/CAZymes_metagenome_with_description.tsv.gz data/annotation
+cp data/annotation/mic/COG_metagenome/COG_metagenome_with_description.tsv.gz data/annotation
+cp data/annotation/mic/KO_metagenome/KEGG_pathways_MinPath_prunned.tsv.gz data/annotation
+cp data/annotation/mic/KO_metagenome/KO_metagenome_MinPath_prunned_with_description.tsv.gz  data/annotation
+cp data/annotation/mic/MetaCyc_metagenome/Pathway_summarize_by_Types.tsv.gz  data/annotation/cyc.tsv.gz
+cp data/annotation/mic/Pfam_metagenome/Pfam_metagenome_with_description.tsv.gz  data/annotation
+cp data/annotation/mic/TIGRFAM_metagenome/TIGRFAM_metagenome_with_description.tsv.gz  data/annotation
+
+gunzip  data/annotation/CAZymes_metagenome_with_description.tsv.gz
+gunzip data/annotation/COG_metagenome_with_description.tsv.gz
+gunzip data/annotation/KEGG_pathways_MinPath_prunned.tsv.gz
+gunzip data/annotation/KO_metagenome_MinPath_prunned_with_description.tsv.gz
+gunzip data/annotation/cyc.tsv.gz
+gunzip data/annotation/Pfam_metagenome_with_description.tsv.gz
+gunzip data/annotation/TIGRFAM_metagenome_with_description.tsv.gz
 
 ```
 
