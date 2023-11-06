@@ -366,7 +366,7 @@ calculate_second_interaction=function(relative_abundance,relative_abundancet_ful
     
 #alpa=alpa_list[[1]]
 
-row.names(relative_abundance)
+#row.names(relative_abundance)
 row.names(alpa)=row.names(relative_abundance)
 colnames(alpa)=row.names(relative_abundance)
 #print(alpa)
@@ -437,6 +437,30 @@ predict_abundance2=function(alpa,relative_abundance,specisNum){
 ##############
 
 predict_abundance2(alpa,relative_abundance,dim(alpa)[1])
+
+
+meltmatrix=function(alpa){
+  valuetable=data.frame(specise1=c(0),specise2=c(0),interaction=c(0))
+  for (i in seq(dim(alpa)[1]) ){
+  
+    for(j in seq(dim(alpa)[2])){
+      if(i !=j){
+        #print(rownames(alpa)[i])
+        #print(colnames(alpa)[j])
+        valuerow=c(rownames(alpa)[i],colnames(alpa)[j],alpa[i,j])
+        #print(valuerow)
+        valuetable=rbind(valuetable,valuerow)
+      }
+    }
+  }
+  valuetable=valuetable[-1,]
+  return(valuetable)
+}
+
+
+pm=meltmatrix(alpa)
+
+write.csv(pm,paste0(args[2],'interaction.csv'))
 
 
 
