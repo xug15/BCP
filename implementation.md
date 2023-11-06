@@ -19,6 +19,20 @@ Rscript script/a1.calculate_alpamatrix.with.plot.r data/abandence/b1.ln.b456.bac
 Rscript script/a1.calculate_alpamatrix.with.plot.r data/abandence/b1.ln.b789.bacteria.abundance.csv data/interaction/b1.ln.b789
 
 ```
+## 2. merge interaction table.
+```sh
+cd data/interaction/
+cat b1*interaction.csv > b3.ln.interaction.csv
+grep -v '""' b3.ln.interaction.csv > b3.ln.csv
+cut -f 2,3,4 -d ',' b3.ln.csv > b3.ln.interaction.csv
+rm b3.ln.csv
+cat b2*interaction.csv > b4.hn.interaction.csv
+grep -v '""' b4.hn.interaction.csv > b4.hn.csv
+cut -f 2,3,4 -d ',' b4.hn.csv > b4.hn.interaction.csv
+rm b4.hn.csv
+cd ../..
+```
+
 
 
 
