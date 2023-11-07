@@ -74,6 +74,20 @@ cut -f 1,2  data/annotation/species.txt > data/annotation/species_name.txt
 ## 6. combine pathway with interaction.
 ```sh
 Rscript script/a2.combine.gene.interaction.r data/annotation/CAZymes_metagenome.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.cazymes 
+Rscript script/a2.combine.gene.interaction.r data/annotation/COG_metagenome.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.cog 
+Rscript script/a2.combine.gene.interaction.r data/annotation/KEGG_pathways_MinPath_prunned.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.kegg
+Rscript script/a2.combine.gene.interaction.r data/annotation/KO_metagenome_MinPath_prunned.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.ko 
+Rscript script/a2.combine.gene.interaction.r data/annotation/Pfam_metagenome.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.pfam 
+Rscript script/a2.combine.gene.interaction.r data/annotation/TIGRFAM_metagenome.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.tigrfam 
+#
+Rscript script/a2.combine.gene.interaction.r data/annotation/CAZymes_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.cazymes 
+Rscript script/a2.combine.gene.interaction.r data/annotation/COG_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.cog 
+Rscript script/a2.combine.gene.interaction.r data/annotation/KEGG_pathways_MinPath_prunned.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.kegg
+Rscript script/a2.combine.gene.interaction.r data/annotation/KO_metagenome_MinPath_prunned.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.ko 
+Rscript script/a2.combine.gene.interaction.r data/annotation/Pfam_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.pfam 
+Rscript script/a2.combine.gene.interaction.r data/annotation/TIGRFAM_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.tigrfam 
+
+
 ```
 
 
