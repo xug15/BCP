@@ -49,24 +49,32 @@ cp ${output}/
 ## 4. extract useful message from annotation files.
 ```sh
 cp data/annotation/mic/out.blast data/annotation/species.txt
-cp data/annotation/mic/CAZymes_metagenome/CAZymes_metagenome_with_description.tsv.gz data/annotation
-cp data/annotation/mic/COG_metagenome/COG_metagenome_with_description.tsv.gz data/annotation
+cp data/annotation/mic/CAZymes_metagenome/CAZymes_metagenome.tsv.gz data/annotation
+cp data/annotation/mic/COG_metagenome/COG_metagenome.tsv.gz data/annotation
 cp data/annotation/mic/KO_metagenome/KEGG_pathways_MinPath_prunned.tsv.gz data/annotation
-cp data/annotation/mic/KO_metagenome/KO_metagenome_MinPath_prunned_with_description.tsv.gz  data/annotation
+cp data/annotation/mic/KO_metagenome/KO_metagenome_MinPath_prunned.tsv.gz  data/annotation
 cp data/annotation/mic/MetaCyc_metagenome/Pathway_summarize_by_Types.tsv.gz  data/annotation/cyc.tsv.gz
-cp data/annotation/mic/Pfam_metagenome/Pfam_metagenome_with_description.tsv.gz  data/annotation
-cp data/annotation/mic/TIGRFAM_metagenome/TIGRFAM_metagenome_with_description.tsv.gz  data/annotation
+cp data/annotation/mic/Pfam_metagenome/Pfam_metagenome.tsv.gz  data/annotation
+cp data/annotation/mic/TIGRFAM_metagenome/TIGRFAM_metagenome.tsv.gz  data/annotation
 
-gunzip  data/annotation/CAZymes_metagenome_with_description.tsv.gz
-gunzip data/annotation/COG_metagenome_with_description.tsv.gz
+gunzip  data/annotation/CAZymes_metagenome.tsv.gz
+gunzip data/annotation/COG_metagenome.tsv.gz
 gunzip data/annotation/KEGG_pathways_MinPath_prunned.tsv.gz
-gunzip data/annotation/KO_metagenome_MinPath_prunned_with_description.tsv.gz
+gunzip data/annotation/KO_metagenome_MinPath_prunned.tsv.gz
 gunzip data/annotation/cyc.tsv.gz
-gunzip data/annotation/Pfam_metagenome_with_description.tsv.gz
-gunzip data/annotation/TIGRFAM_metagenome_with_description.tsv.gz
+gunzip data/annotation/Pfam_metagenome.tsv.gz
+gunzip data/annotation/TIGRFAM_metagenome.tsv.gz
 
 ```
+## 5. get species name. 
+```sh
+cut -f 1,2  data/annotation/species.txt > data/annotation/species_name.txt
+```
 
+## 6. combine pathway with interaction.
+```sh
+Rscript script/a2.combine.gene.interaction.r data/annotation/CAZymes_metagenome.tsv data/interaction/b3.ln.interaction.csv data/ml/ln.ml.cazymes 
+```
 
 
 

@@ -19,8 +19,10 @@ head(interaction)
 #find optimal lambda value that minimizes test MSE
 pathway
 
-
-totalnumber=dim(interaction)[1]*((dim(pathway)[1]*2)+1)
+#interaction[1] means the rows
+#dim(pathway)[1]*2+1 means the feature of pathway of two speices and add a label. 
+totalnumber=dim(interaction)[1] * ((dim(pathway)[1]*2)+1)
+#
 print(totalnumber)
 
 xdata=matrix(rep(1,totalnumber),nrow=dim(interaction)[1])
