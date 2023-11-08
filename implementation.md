@@ -86,8 +86,6 @@ Rscript script/a2.combine.gene.interaction.r data/annotation/KEGG_pathways_MinPa
 Rscript script/a2.combine.gene.interaction.r data/annotation/KO_metagenome_MinPath_prunned.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.ko 
 Rscript script/a2.combine.gene.interaction.r data/annotation/Pfam_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.pfam 
 Rscript script/a2.combine.gene.interaction.r data/annotation/TIGRFAM_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.tigrfam 
-
-
 ```
 
 
