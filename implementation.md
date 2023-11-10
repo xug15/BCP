@@ -91,7 +91,6 @@ Rscript script/a2.combine.gene.interaction.r data/annotation/TIGRFAM_metagenome.
 ```sh
 mamba create -n py38 python=3.8.17
 mamba activate py38
-pip install numpy==1.23.5
 mamba install -c creditx hpsklearn
 pip install git+https://github.com/hyperopt/hyperopt-sklearn
 mamba install -c conda-forge boruta_py
@@ -103,5 +102,7 @@ pip install seaborn
 pip install tensorflow
 pip install pydot
 pip install graphviz
+pip install numpy==1.23.5
+
 ```
 
