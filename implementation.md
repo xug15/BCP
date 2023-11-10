@@ -87,6 +87,21 @@ Rscript script/a2.combine.gene.interaction.r data/annotation/KO_metagenome_MinPa
 Rscript script/a2.combine.gene.interaction.r data/annotation/Pfam_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.pfam 
 Rscript script/a2.combine.gene.interaction.r data/annotation/TIGRFAM_metagenome.tsv data/interaction/b4.hn.interaction.csv data/ml/hn.ml.tigrfam 
 ```
-
-
+## 7. prepare machine learning environment.
+```sh
+mamba create -n py38 python=3.8.17
+mamba activate py38
+pip install numpy==1.23.5
+mamba install -c creditx hpsklearn
+pip install git+https://github.com/hyperopt/hyperopt-sklearn
+mamba install -c conda-forge boruta_py
+pip install boostaroota
+pip install pickle
+pip install shap
+pip install matplotlib
+pip install seaborn
+pip install tensorflow
+pip install pydot
+pip install graphviz
+```
 
