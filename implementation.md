@@ -102,7 +102,9 @@ pip install seaborn
 pip install tensorflow
 pip install pydot
 pip install graphviz
-pip install numpy==1.23.5
+pip install numpy==1.23
+#pip install numpy==1.23.5
+pip install plotly
 
 ```
 
