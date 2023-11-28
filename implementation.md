@@ -40,6 +40,7 @@ cd ../..
 abun='data/annotation/16s.abun.tsv'
 fasta='data/annotation/16s_sequence.fa'
 output='data/annotation/mic'
+python script/otu2abun.py -i data/otu/16s_sequence.fa -o data/otu/16s_abuns.tsv  
 echo "MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose"
 MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose
 
