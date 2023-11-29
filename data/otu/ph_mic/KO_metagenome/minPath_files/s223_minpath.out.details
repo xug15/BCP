@@ -1,0 +1,745 @@
+path 00010 fam0 56 fam-found 16 # Glycolysis / Gluconeogenesis
+   K00128 hits 1 # E1.2.1.3
+   K00134 hits 1 # GAPD, gapA
+   K00161 hits 1 # PDHA
+   K00162 hits 1 # PDHB
+   K00382 hits 1 # DLD, lpd, pdhD
+   K00627 hits 1 # DLAT, aceF, pdhC
+   K00850 hits 1 # PFK
+   K00873 hits 1 # PK, pyk
+   K00927 hits 1 # PGK
+   K01624 hits 1 # FBA, fbaA
+   K01689 hits 1 # ENO
+   K01785 hits 1 # E5.1.3.3, galM
+   K01803 hits 1 # TPI, tpiA
+   K01810 hits 1 # GPI, pgi
+   K01895 hits 1 # E6.2.1.1, acs
+   K03841 hits 1 # FBP
+path 00020 fam0 50 fam-found 15 # Citrate cycle (TCA cycle)
+   K00031 hits 1 # IDH1, IDH2, icd
+   K00161 hits 1 # PDHA
+   K00162 hits 1 # PDHB
+   K00164 hits 1 # OGDH, sucA
+   K00239 hits 1 # sdhA
+   K00240 hits 1 # sdhB
+   K00241 hits 1 # sdhC
+   K00382 hits 1 # DLD, lpd, pdhD
+   K00627 hits 1 # DLAT, aceF, pdhC
+   K00658 hits 1 # DLST, sucB
+   K01647 hits 1 # CS, gltA
+   K01679 hits 1 # E4.2.1.2B, fumC
+   K01681 hits 1 # ACO, acnA
+   K01902 hits 1 # sucD
+   K01903 hits 1 # sucC
+path 00030 fam0 42 fam-found 13 # Pentose phosphate pathway
+   K00615 hits 1 # E2.2.1.1, tktA, tktB
+   K00616 hits 1 # E2.2.1.2, talA, talB
+   K00850 hits 1 # PFK
+   K00874 hits 1 # kdgK
+   K00948 hits 1 # E2.7.6.1, prsA
+   K01619 hits 1 # E4.1.2.4, deoC
+   K01624 hits 1 # FBA, fbaA
+   K01625 hits 1 # eda
+   K01783 hits 1 # E5.1.3.1, rpe
+   K01808 hits 1 # E5.3.1.6B, rpiB
+   K01810 hits 1 # GPI, pgi
+   K03841 hits 1 # FBP
+   K07404 hits 1 # ybhE, pgl
+path 00040 fam0 41 fam-found 11 # Pentose and glucuronate interconversions
+   K00012 hits 1 # E1.1.1.22, ugd
+   K00041 hits 1 # E1.1.1.58, uxaB
+   K00854 hits 1 # E2.7.1.17
+   K00874 hits 1 # kdgK
+   K01625 hits 1 # eda
+   K01685 hits 1 # E4.2.1.7, uxaA
+   K01686 hits 1 # E4.2.1.8, uxuA
+   K01783 hits 1 # E5.1.3.1, rpe
+   K01804 hits 1 # E5.3.1.4, araA
+   K01812 hits 1 # E5.3.1.12, uxaC
+   K01820 hits 1 # E5.3.1.-
+path 00051 fam0 50 fam-found 9 # Fructose and mannose metabolism
+   K00754 hits 1 # E2.4.1.-
+   K00847 hits 1 # E2.7.1.4, scrK
+   K00850 hits 1 # PFK
+   K00971 hits 1 # E2.7.7.22, manC
+   K01218 hits 1 # E3.2.1.78
+   K01624 hits 1 # FBA, fbaA
+   K01803 hits 1 # TPI, tpiA
+   K01840 hits 1 # E5.4.2.8, manB
+   K03841 hits 1 # FBP
+path 00052 fam0 38 fam-found 5 # Galactose metabolism
+   K00849 hits 1 # E2.7.1.6, galK
+   K00850 hits 1 # PFK
+   K00965 hits 1 # E2.7.7.12
+   K01187 hits 1 # E3.2.1.20, malZ
+   K01784 hits 1 # E5.1.3.2, galE
+path 00053 fam0 24 fam-found 3 # Ascorbate and aldarate metabolism
+   K00012 hits 1 # E1.1.1.22, ugd
+   K00128 hits 1 # E1.2.1.3
+   K00469 hits 1 # E1.13.99.1
+path 00061 fam0 30 fam-found 9 # Fatty acid biosynthesis
+   K00059 hits 1 # E1.1.1.100, fabG
+   K00208 hits 1 # E1.3.1.9, fabI
+   K00645 hits 1 # E2.3.1.39, fabD
+   K00648 hits 1 # E2.3.1.180, fabH
+   K01961 hits 1 # ACCC
+   K01962 hits 1 # ACCA
+   K01963 hits 1 # ACCD
+   K02160 hits 1 # ACCB, bccP
+   K03921 hits 1 # E1.14.19.2A1, DESA1
+path 00100 fam0 47 fam-found 1 # Biosynthesis of steroids
+   K01662 hits 1 # E2.2.1.7, dxs
+path 00130 fam0 38 fam-found 6 # Ubiquinone biosynthesis
+   K01911 hits 1 # MENE
+   K02361 hits 1 # ENTC
+   K02548 hits 1 # MENA
+   K02551 hits 1 # MEND
+   K03179 hits 1 # UBIA
+   K03183 hits 1 # UBIE
+path 00190 fam0 200 fam-found 19 # Oxidative phosphorylation
+   K00239 hits 1 # sdhA
+   K00240 hits 1 # sdhB
+   K00241 hits 1 # sdhC
+   K00937 hits 1 # E2.7.4.1, ppk
+   K01507 hits 1 # E3.6.1.1, ppa
+   K02108 hits 1 # ATPF0A, atpB
+   K02109 hits 1 # ATPF0B, atpF
+   K02110 hits 1 # ATPF0C, atpE
+   K02111 hits 1 # ATPF1A, atpA
+   K02112 hits 1 # ATPF1B, atpD
+   K02113 hits 1 # ATPF1D, atpH
+   K02114 hits 1 # ATPF1E, atpC
+   K02115 hits 1 # ATPF1G, atpG
+   K02259 hits 1 # COX15
+   K02274 hits 1 # COXA
+   K02275 hits 1 # COXB
+   K02276 hits 1 # COXC
+   K02301 hits 1 # CYOE
+   K03885 hits 1 # NDH
+path 00220 fam0 48 fam-found 12 # Urea cycle and metabolism of amino groups
+   K00128 hits 1 # E1.2.1.3
+   K00145 hits 1 # E1.2.1.38, argC
+   K00147 hits 1 # E1.2.1.41, proA
+   K00657 hits 1 # E2.3.1.57, speG
+   K00818 hits 1 # E2.6.1.11, argD
+   K00930 hits 1 # E2.7.2.8, argB
+   K00931 hits 1 # E2.7.2.11, proB
+   K01438 hits 1 # E3.5.1.16, argE
+   K01480 hits 1 # E3.5.3.11, speB
+   K01585 hits 1 # E4.1.1.19S, speA
+   K01755 hits 1 # E4.3.2.1, argH
+   K01940 hits 1 # E6.3.4.5, argG
+path 00230 fam0 129 fam-found 30 # Purine metabolism
+   K00088 hits 1 # E1.1.1.205, guaB
+   K00525 hits 1 # E1.17.4.1A, nrdA, nrdE
+   K00526 hits 1 # E1.17.4.1B, nrdB, nrdF
+   K00602 hits 1 # E2.1.2.3, purH
+   K00764 hits 1 # E2.4.2.14, purF
+   K00873 hits 1 # PK, pyk
+   K00939 hits 1 # E2.7.4.3, adk
+   K00940 hits 1 # E2.7.4.6, ndk
+   K00942 hits 1 # E2.7.4.8, gmk
+   K00948 hits 1 # E2.7.6.1, prsA
+   K00951 hits 1 # E2.7.6.5, relA
+   K00956 hits 1 # E2.7.7.4A, cysN
+   K00957 hits 1 # E2.7.7.4B, cysD
+   K00962 hits 1 # E2.7.7.8, pnp
+   K01081 hits 1 # E3.1.3.5, ushA
+   K01486 hits 1 # E3.5.4.2, adeC
+   K01524 hits 1 # E3.6.1.40, gppA
+   K01588 hits 1 # E4.1.1.21A, purE
+   K01589 hits 1 # E4.1.1.21B, purK
+   K01756 hits 1 # E4.3.2.2, purB
+   K01923 hits 1 # E6.3.2.6, purC
+   K01933 hits 1 # E6.3.3.1, purM
+   K01939 hits 1 # E6.3.4.4, purA
+   K01945 hits 1 # E6.3.4.13, purD
+   K01951 hits 1 # E6.3.5.2, guaA
+   K01952 hits 1 # E6.3.5.3, purL
+   K02335 hits 1 # DPO1, polA
+   K02428 hits 1 # MAZG
+   K03783 hits 1 # PUNA
+   K03787 hits 1 # SURE
+path 00240 fam0 73 fam-found 27 # Pyrimidine metabolism
+   K00254 hits 1 # E1.3.99.11
+   K00384 hits 1 # E1.8.1.9, trxB
+   K00525 hits 1 # E1.17.4.1A, nrdA, nrdE
+   K00526 hits 1 # E1.17.4.1B, nrdB, nrdF
+   K00560 hits 1 # E2.1.1.45, thyA
+   K00609 hits 1 # E2.1.3.2C, pyrB
+   K00757 hits 1 # E2.4.2.3, udp
+   K00761 hits 1 # E2.4.2.9, upp
+   K00762 hits 1 # E2.4.2.10, pyrE
+   K00857 hits 1 # E2.7.1.21, tdk
+   K00876 hits 1 # E2.7.1.48, udk
+   K00940 hits 1 # E2.7.4.6, ndk
+   K00945 hits 1 # E2.7.4.14, cmk
+   K00962 hits 1 # E2.7.7.8, pnp
+   K01081 hits 1 # E3.1.3.5, ushA
+   K01465 hits 1 # E3.5.2.3, pyrC
+   K01489 hits 1 # E3.5.4.5, cdd
+   K01520 hits 1 # E3.6.1.23, dut
+   K01591 hits 1 # E4.1.1.23, pyrF
+   K01937 hits 1 # E6.3.4.2, pyrG
+   K01955 hits 1 # E6.3.5.5L, carB
+   K01956 hits 1 # E6.3.5.5S, carA
+   K02335 hits 1 # DPO1, polA
+   K02428 hits 1 # MAZG
+   K02825 hits 1 # pyrR
+   K03783 hits 1 # PUNA
+   K03787 hits 1 # SURE
+path 00251 fam0 47 fam-found 14 # Glutamate metabolism
+   K00135 hits 1 # E1.2.1.16, gabD
+   K00266 hits 1 # gltD
+   K00294 hits 1 # E1.5.1.12, putA
+   K00764 hits 1 # E2.4.2.14, purF
+   K00812 hits 1 # E2.6.1.1A, aspB
+   K00820 hits 1 # E2.6.1.16, glmS
+   K01585 hits 1 # E4.1.1.19S, speA
+   K01776 hits 1 # E5.1.1.3, murI
+   K01885 hits 1 # E6.1.1.17, gltX
+   K01915 hits 1 # E6.3.1.2, glnA
+   K01951 hits 1 # E6.3.5.2, guaA
+   K01955 hits 1 # E6.3.5.5L, carB
+   K01956 hits 1 # E6.3.5.5S, carA
+   K02433 hits 1 # GATA
+path 00252 fam0 45 fam-found 17 # Alanine and aspartate metabolism
+   K00161 hits 1 # PDHA
+   K00162 hits 1 # PDHB
+   K00382 hits 1 # DLD, lpd, pdhD
+   K00609 hits 1 # E2.1.3.2C, pyrB
+   K00627 hits 1 # DLAT, aceF, pdhC
+   K00812 hits 1 # E2.6.1.1A, aspB
+   K01424 hits 1 # E3.5.1.1, ansA, ansB
+   K01579 hits 1 # E4.1.1.11, panD
+   K01755 hits 1 # E4.3.2.1, argH
+   K01756 hits 1 # E4.3.2.2, purB
+   K01775 hits 1 # E5.1.1.1, alr
+   K01872 hits 1 # E6.1.1.7, alaS
+   K01876 hits 1 # E6.1.1.12, aspS
+   K01893 hits 1 # E6.1.1.22, asnS
+   K01939 hits 1 # E6.3.4.4, purA
+   K01940 hits 1 # E6.3.4.5, argG
+   K02433 hits 1 # GATA
+path 00253 fam0 4 fam-found 4 # Tetracycline biosynthesis
+   K01961 hits 1 # ACCC
+   K01962 hits 1 # ACCA
+   K01963 hits 1 # ACCD
+   K02160 hits 1 # ACCB, bccP
+path 00260 fam0 64 fam-found 19 # Glycine, serine and threonine metabolism
+   K00018 hits 1 # E1.1.1.29
+   K00058 hits 1 # E1.1.1.95, serA
+   K00133 hits 1 # E1.2.1.11, asd
+   K00382 hits 1 # DLD, lpd, pdhD
+   K00600 hits 1 # E2.1.2.1, glyA
+   K00605 hits 1 # E2.1.2.10, gcvT
+   K00639 hits 1 # E2.3.1.29, kbl
+   K00831 hits 1 # E2.6.1.52, serC
+   K00872 hits 1 # E2.7.1.39A, thrB
+   K00928 hits 1 # E2.7.2.4, lysC
+   K01613 hits 1 # E4.1.1.65, psd
+   K01620 hits 1 # E4.1.2.5, ltaA
+   K01697 hits 1 # E4.2.1.22, CBS
+   K01733 hits 1 # E4.2.3.1, thrC
+   K01752 hits 1 # E4.3.1.17, sdaA
+   K01754 hits 1 # E4.3.1.19, ilvA, tdcB
+   K01868 hits 1 # E6.1.1.3, thrS
+   K01875 hits 1 # E6.1.1.11, serS
+   K01880 hits 1 # E6.1.1.14C, GRS1
+path 00271 fam0 38 fam-found 8 # Methionine metabolism
+   K00548 hits 1 # E2.1.1.13, metH
+   K00558 hits 1 # E2.1.1.37, DNMT, dcm
+   K00604 hits 1 # E2.1.2.9, fmt
+   K00789 hits 1 # E2.5.1.6, metK
+   K01251 hits 1 # E3.3.1.1, ahcY
+   K01697 hits 1 # E4.2.1.22, CBS
+   K01740 hits 1 # E2.5.1.49, metY
+   K01874 hits 1 # E6.1.1.10, metG
+path 00272 fam0 21 fam-found 5 # Cysteine metabolism
+   K00812 hits 1 # E2.6.1.1A, aspB
+   K01011 hits 1 # E2.8.1.2
+   K01740 hits 1 # E2.5.1.49, metY
+   K01752 hits 1 # E4.3.1.17, sdaA
+   K01883 hits 1 # E6.1.1.16A, cysS
+path 00290 fam0 20 fam-found 15 # Valine, leucine and isoleucine biosynthesis
+   K00052 hits 1 # E1.1.1.85, leuB
+   K00053 hits 1 # E1.1.1.86, ilvC
+   K00161 hits 1 # PDHA
+   K00162 hits 1 # PDHB
+   K00826 hits 1 # E2.6.1.42, ilvE
+   K01649 hits 1 # E2.3.3.13, leuA
+   K01652 hits 1 # E2.2.1.6L, ilvB, ilvG, ilvI
+   K01653 hits 1 # E2.2.1.6S, ilvH, ilvN
+   K01687 hits 1 # E4.2.1.9, ilvD
+   K01703 hits 1 # leuC
+   K01704 hits 1 # leuD
+   K01754 hits 1 # E4.3.1.19, ilvA, tdcB
+   K01869 hits 1 # E6.1.1.4, leuS
+   K01870 hits 1 # E6.1.1.5, ileS
+   K01873 hits 1 # E6.1.1.9, valS
+path 00300 fam0 39 fam-found 10 # Lysine biosynthesis
+   K00133 hits 1 # E1.2.1.11, asd
+   K00215 hits 1 # E1.3.1.26, dapB
+   K00674 hits 1 # E2.3.1.117, dapD
+   K00928 hits 1 # E2.7.2.4, lysC
+   K01586 hits 1 # E4.1.1.20, lysA
+   K01714 hits 1 # E4.2.1.52, dapA
+   K01778 hits 1 # E5.1.1.7, dapF
+   K01928 hits 1 # E6.3.2.13, murE
+   K01929 hits 1 # E6.3.2.10, murF
+   K04567 hits 1 # LYSU, KARS
+path 00330 fam0 53 fam-found 10 # Arginine and proline metabolism
+   K00286 hits 1 # E1.5.1.2, proC
+   K00294 hits 1 # E1.5.1.12, putA
+   K00318 hits 1 # E1.5.99.8, putA
+   K00812 hits 1 # E2.6.1.1A, aspB
+   K00819 hits 1 # E2.6.1.13, rocD
+   K01625 hits 1 # eda
+   K01755 hits 1 # E4.3.2.1, argH
+   K01881 hits 1 # E6.1.1.15, proS
+   K01887 hits 1 # E6.1.1.19, argS
+   K01940 hits 1 # E6.3.4.5, argG
+path 00340 fam0 34 fam-found 10 # Histidine metabolism
+   K00013 hits 1 # E1.1.1.23, hisD
+   K00128 hits 1 # E1.2.1.3
+   K00765 hits 1 # E2.4.2.17, hisG
+   K00817 hits 1 # E2.6.1.9, hisC
+   K01089 hits 1 # E3.1.3.15A, hisB
+   K01814 hits 1 # E5.3.1.16, hisA
+   K01892 hits 1 # E6.1.1.21S, hisS
+   K02500 hits 1 # HISF
+   K02501 hits 1 # HISH
+   K04486 hits 1 # E3.1.3.15B
+path 00350 fam0 54 fam-found 6 # Tyrosine metabolism
+   K00135 hits 1 # E1.2.1.16, gabD
+   K00451 hits 1 # E1.13.11.5, hmgA
+   K00457 hits 1 # E1.13.11.27
+   K00812 hits 1 # E2.6.1.1A, aspB
+   K00817 hits 1 # E2.6.1.9, hisC
+   K01555 hits 1 # E3.7.1.2, FAH
+path 00361 fam0 22 fam-found 1 # gamma-Hexachlorocyclohexane degradation
+   K01560 hits 1 # E3.8.1.2
+path 00380 fam0 50 fam-found 10 # Tryptophan metabolism
+   K00128 hits 1 # E1.2.1.3
+   K00164 hits 1 # OGDH, sucA
+   K00252 hits 1 # E1.3.99.7, gcdH
+   K00452 hits 1 # E1.13.11.6, HAAO
+   K00453 hits 1 # E1.13.11.11, TDO2
+   K00486 hits 1 # E1.14.13.9
+   K00626 hits 1 # E2.3.1.9, atoB
+   K01556 hits 1 # E3.7.1.3
+   K01692 hits 1 # E4.2.1.17, paaG
+   K01867 hits 1 # E6.1.1.2, trpS
+path 00400 fam0 48 fam-found 20 # Phenylalanine, tyrosine and tryptophan biosynthesis
+   K00014 hits 1 # E1.1.1.25, aroE
+   K00766 hits 1 # E2.4.2.18, trpD
+   K00800 hits 1 # E2.5.1.19, aroA
+   K00812 hits 1 # E2.6.1.1A, aspB
+   K00817 hits 1 # E2.6.1.9, hisC
+   K00891 hits 1 # E2.7.1.71, aroK
+   K01609 hits 1 # E4.1.1.48, trpC
+   K01657 hits 1 # E4.1.3.27A, trpE
+   K01658 hits 1 # E4.1.3.27B, trpD
+   K01695 hits 1 # E4.2.1.20A, trpA
+   K01735 hits 1 # E4.2.3.4, ARO1
+   K01736 hits 1 # E4.2.3.5, aroC
+   K01817 hits 1 # E5.3.1.24, trpF
+   K01866 hits 1 # E6.1.1.1, tyrS
+   K01889 hits 1 # E6.1.1.20A, pheS
+   K01890 hits 1 # E6.1.1.20B, pheT
+   K03786 hits 1 # AROQ, qutE
+   K04516 hits 1 # AROA1, aroA
+   K04517 hits 1 # TYRA2, tyrA
+   K04518 hits 1 # PHEA2, pheA
+path 00430 fam0 15 fam-found 3 # Taurine and hypotaurine metabolism
+   K00259 hits 1 # E1.4.1.1, ald
+   K00681 hits 1 # E2.3.2.2, ggt
+   K00925 hits 1 # E2.7.2.1, ackA
+path 00471 fam0 6 fam-found 3 # D-Glutamine and D-glutamate metabolism
+   K01776 hits 1 # E5.1.1.3, murI
+   K01924 hits 1 # E6.3.2.8, murC
+   K01925 hits 1 # E6.3.2.9, murD
+path 00473 fam0 4 fam-found 2 # D-Alanine metabolism
+   K01775 hits 1 # E5.1.1.1, alr
+   K01921 hits 1 # E6.3.2.4, ddlA
+path 00480 fam0 38 fam-found 4 # Glutathione metabolism
+   K00031 hits 1 # IDH1, IDH2, icd
+   K00432 hits 1 # E1.11.1.9
+   K00681 hits 1 # E2.3.2.2, ggt
+   K01256 hits 1 # PEPN
+path 00500 fam0 67 fam-found 7 # Starch and sucrose metabolism
+   K00012 hits 1 # E1.1.1.22, ugd
+   K00700 hits 1 # E2.4.1.18, glgB
+   K00703 hits 1 # E2.4.1.21, glgA
+   K00847 hits 1 # E2.7.1.4, scrK
+   K01187 hits 1 # E3.2.1.20, malZ
+   K01198 hits 1 # E3.2.1.37, xynB
+   K01810 hits 1 # GPI, pgi
+path 00510 fam0 35 fam-found 1 # N-Glycan biosynthesis
+   K00721 hits 1 # DPM1
+path 00511 fam0 8 fam-found 2 # N-Glycan degradation
+   K01191 hits 1 # E3.2.1.24
+   K01444 hits 1 # E3.5.1.26
+path 00520 fam0 20 fam-found 8 # Nucleotide sugars metabolism
+   K00012 hits 1 # E1.1.1.22, ugd
+   K00067 hits 1 # E1.1.1.133, rfbD
+   K00965 hits 1 # E2.7.7.12
+   K00973 hits 1 # E2.7.7.24, rfbA
+   K01198 hits 1 # E3.2.1.37, xynB
+   K01710 hits 1 # E4.2.1.46, rfbB
+   K01784 hits 1 # E5.1.3.2, galE
+   K01790 hits 1 # E5.1.3.13, rfbC
+path 00523 fam0 4 fam-found 4 # Polyketide sugar unit biosynthesis
+   K00067 hits 1 # E1.1.1.133, rfbD
+   K00973 hits 1 # E2.7.7.24, rfbA
+   K01710 hits 1 # E4.2.1.46, rfbB
+   K01790 hits 1 # E5.1.3.13, rfbC
+path 00530 fam0 38 fam-found 8 # Aminosugars metabolism
+   K00075 hits 1 # murB
+   K00790 hits 1 # murA
+   K00820 hits 1 # E2.6.1.16, glmS
+   K01654 hits 1 # E2.5.1.56, neuB
+   K02473 hits 1 # E5.1.3.7, wbpP
+   K02474 hits 1 # wbpO
+   K02564 hits 1 # nagB, GNPDA
+   K07106 hits 1 # murQ
+path 00540 fam0 31 fam-found 11 # Lipopolysaccharide biosynthesis
+   K00677 hits 1 # E2.3.1.129, lpxA
+   K00748 hits 1 # E2.4.1.182, lpxB
+   K00912 hits 1 # E2.7.1.130, lpxK
+   K00979 hits 1 # E2.7.7.38, kdsB
+   K01627 hits 1 # E2.5.1.55, kdsA
+   K02517 hits 1 # HTRB
+   K02527 hits 1 # KDTA
+   K02536 hits 1 # LPXD
+   K02843 hits 1 # WAAF, rfaF
+   K03269 hits 1 # LPXH
+   K03270 hits 1 # E3.1.3.45, kdsC
+path 00550 fam0 21 fam-found 11 # Peptidoglycan biosynthesis
+   K01000 hits 1 # E2.7.8.13, mraY
+   K01448 hits 1 # E3.5.1.28B, amiA, amiB, amiC
+   K01915 hits 1 # E6.3.1.2, glnA
+   K01921 hits 1 # E6.3.2.4, ddlA
+   K01924 hits 1 # E6.3.2.8, murC
+   K01925 hits 1 # E6.3.2.9, murD
+   K01928 hits 1 # E6.3.2.13, murE
+   K01929 hits 1 # E6.3.2.10, murF
+   K02563 hits 1 # MURG
+   K03587 hits 1 # FTSI
+   K06153 hits 1 # E3.6.1.27, bacA
+path 00564 fam0 59 fam-found 6 # Glycerophospholipid metabolism
+   K00057 hits 1 # E1.1.1.94, gpsA
+   K00111 hits 1 # E1.1.99.5A, glpA, glpD
+   K00655 hits 1 # E2.3.1.51, plsC
+   K00981 hits 1 # E2.7.7.41, CDS1, cdsA
+   K01126 hits 1 # E3.1.4.46, glpQ
+   K01613 hits 1 # E4.1.1.65, psd
+path 00591 fam0 12 fam-found 1 # Linoleic acid metabolism
+   K00508 hits 1 # E1.14.19.3
+path 00620 fam0 67 fam-found 15 # Pyruvate metabolism
+   K00029 hits 1 # E1.1.1.40, maeB
+   K00128 hits 1 # E1.2.1.3
+   K00161 hits 1 # PDHA
+   K00162 hits 1 # PDHB
+   K00382 hits 1 # DLD, lpd, pdhD
+   K00626 hits 1 # E2.3.1.9, atoB
+   K00627 hits 1 # DLAT, aceF, pdhC
+   K00873 hits 1 # PK, pyk
+   K00925 hits 1 # E2.7.2.1, ackA
+   K01649 hits 1 # E2.3.3.13, leuA
+   K01895 hits 1 # E6.2.1.1, acs
+   K01961 hits 1 # ACCC
+   K01962 hits 1 # ACCA
+   K01963 hits 1 # ACCD
+   K02160 hits 1 # ACCB, bccP
+path 00640 fam0 59 fam-found 14 # Propanoate metabolism
+   K00128 hits 1 # E1.2.1.3
+   K00626 hits 1 # E2.3.1.9, atoB
+   K00925 hits 1 # E2.7.2.1, ackA
+   K01692 hits 1 # E4.2.1.17, paaG
+   K01847 hits 1 # E5.4.99.2
+   K01895 hits 1 # E6.2.1.1, acs
+   K01902 hits 1 # sucD
+   K01903 hits 1 # sucC
+   K01961 hits 1 # ACCC
+   K01962 hits 1 # ACCA
+   K01963 hits 1 # ACCD
+   K01966 hits 1 # E6.4.1.3B, pccB
+   K02160 hits 1 # ACCB, bccP
+   K05606 hits 1 # E5.1.99.1
+path 00650 fam0 67 fam-found 15 # Butanoate metabolism
+   K00074 hits 1 # E1.1.1.157, paaH
+   K00128 hits 1 # E1.2.1.3
+   K00135 hits 1 # E1.2.1.16, gabD
+   K00161 hits 1 # PDHA
+   K00162 hits 1 # PDHB
+   K00239 hits 1 # sdhA
+   K00240 hits 1 # sdhB
+   K00241 hits 1 # sdhC
+   K00626 hits 1 # E2.3.1.9, atoB
+   K01029 hits 1 # E2.8.3.5B, scoB
+   K01640 hits 1 # E4.1.3.4, hmgL
+   K01652 hits 1 # E2.2.1.6L, ilvB, ilvG, ilvI
+   K01653 hits 1 # E2.2.1.6S, ilvH, ilvN
+   K01692 hits 1 # E4.2.1.17, paaG
+   K01715 hits 1 # E4.2.1.55, crt
+path 00670 fam0 21 fam-found 11 # One carbon pool by folate
+   K00287 hits 1 # E1.5.1.3, folA
+   K00297 hits 1 # E1.5.1.20, metF
+   K00548 hits 1 # E2.1.1.13, metH
+   K00560 hits 1 # E2.1.1.45, thyA
+   K00600 hits 1 # E2.1.2.1, glyA
+   K00602 hits 1 # E2.1.2.3, purH
+   K00604 hits 1 # E2.1.2.9, fmt
+   K00605 hits 1 # E2.1.2.10, gcvT
+   K01433 hits 1 # E3.5.1.10, purU
+   K01491 hits 1 # E3.5.4.9, folD
+   K01934 hits 1 # E6.3.3.2
+path 00730 fam0 19 fam-found 2 # Thiamine metabolism
+   K00946 hits 1 # E2.7.4.16, thiL
+   K04487 hits 1 # E2.8.1.7, iscS, nifS
+path 00740 fam0 15 fam-found 2 # Riboflavin metabolism
+   K00793 hits 1 # E2.5.1.9A, ribE
+   K00794 hits 1 # RIBH
+path 00750 fam0 14 fam-found 5 # Vitamin B6 metabolism
+   K00097 hits 1 # E1.1.1.262, pdxA
+   K00275 hits 1 # E1.4.3.5, pdxH
+   K00831 hits 1 # E2.6.1.52, serC
+   K01733 hits 1 # E4.2.3.1, thrC
+   K03474 hits 1 # E2.6.99.2, pdxJ
+path 00760 fam0 30 fam-found 7 # Nicotinate and nicotinamide metabolism
+   K00763 hits 1 # E2.4.2.11, pncB
+   K00767 hits 1 # E2.4.2.19, nadC
+   K00858 hits 1 # E2.7.1.23
+   K00969 hits 1 # E2.7.7.18, nadD
+   K01081 hits 1 # E3.1.3.5, ushA
+   K03783 hits 1 # PUNA
+   K03787 hits 1 # SURE
+path 00770 fam0 24 fam-found 10 # Pantothenate and CoA biosynthesis
+   K00053 hits 1 # E1.1.1.86, ilvC
+   K00606 hits 1 # E2.1.2.11, panB
+   K00826 hits 1 # E2.6.1.42, ilvE
+   K00859 hits 1 # E2.7.1.24, coaE
+   K00954 hits 1 # E2.7.7.3A, coaD, kdtB
+   K01652 hits 1 # E2.2.1.6L, ilvB, ilvG, ilvI
+   K01653 hits 1 # E2.2.1.6S, ilvH, ilvN
+   K01687 hits 1 # E4.2.1.9, ilvD
+   K01918 hits 1 # E6.3.2.1, panC
+   K03525 hits 1 # COAX
+path 00785 fam0 4 fam-found 2 # Lipoic acid metabolism
+   K03644 hits 1 # LIPA
+   K03801 hits 1 # LIPB
+path 00790 fam0 52 fam-found 6 # Folate biosynthesis
+   K00287 hits 1 # E1.5.1.3, folA
+   K00796 hits 1 # E2.5.1.15, folP
+   K01495 hits 1 # E3.5.4.16, folE
+   K01633 hits 1 # E4.1.2.25, folB
+   K01665 hits 1 # pabB
+   K01737 hits 1 # E4.2.3.12, ptpS
+path 00860 fam0 85 fam-found 14 # Porphyrin and chlorophyll metabolism
+   K00798 hits 1 # E2.5.1.17, cobO, btuR
+   K01599 hits 1 # E4.1.1.37, hemE
+   K01698 hits 1 # E4.2.1.24, hemB
+   K01719 hits 1 # E4.2.1.75, hemD
+   K01772 hits 1 # E4.99.1.1, hemH
+   K01845 hits 1 # E5.4.3.8, hemL
+   K01885 hits 1 # E6.1.1.17, gltX
+   K02259 hits 1 # COX15
+   K02301 hits 1 # CYOE
+   K02303 hits 1 # CYSG2, cysG
+   K02492 hits 1 # E1.2.1.70, hemA
+   K02493 hits 1 # HEMK
+   K02495 hits 1 # E1.3.99.22, hemN, hemZ
+   K03405 hits 1 # CHLI
+path 00900 fam0 8 fam-found 1 # Terpenoid biosynthesis
+   K00806 hits 1 # E2.5.1.31, uppS
+path 00908 fam0 4 fam-found 1 # Zeatin biosynthesis
+   K00791 hits 1 # E2.5.1.8, miaA
+path 00910 fam0 107 fam-found 9 # Nitrogen metabolism
+   K00266 hits 1 # gltD
+   K00362 hits 1 # E1.7.1.4L, nirB
+   K00363 hits 1 # E1.7.1.4S, nirD
+   K00367 hits 1 # E1.7.7.2, narB
+   K00459 hits 1 # E1.13.11.32
+   K00605 hits 1 # E2.1.2.10, gcvT
+   K01424 hits 1 # E3.5.1.1, ansA, ansB
+   K01673 hits 1 # E4.2.1.1A, cynT
+   K01915 hits 1 # E6.3.1.2, glnA
+path 00920 fam0 27 fam-found 4 # Sulfur metabolism
+   K00390 hits 1 # E1.8.4.8, cysH
+   K00392 hits 1 # E1.8.7.1, sir
+   K00956 hits 1 # E2.7.7.4A, cysN
+   K00957 hits 1 # E2.7.7.4B, cysD
+path 00970 fam0 28 fam-found 21 # Aminoacyl-tRNA biosynthesis
+   K00604 hits 1 # E2.1.2.9, fmt
+   K01866 hits 1 # E6.1.1.1, tyrS
+   K01867 hits 1 # E6.1.1.2, trpS
+   K01868 hits 1 # E6.1.1.3, thrS
+   K01869 hits 1 # E6.1.1.4, leuS
+   K01870 hits 1 # E6.1.1.5, ileS
+   K01872 hits 1 # E6.1.1.7, alaS
+   K01873 hits 1 # E6.1.1.9, valS
+   K01874 hits 1 # E6.1.1.10, metG
+   K01875 hits 1 # E6.1.1.11, serS
+   K01876 hits 1 # E6.1.1.12, aspS
+   K01880 hits 1 # E6.1.1.14C, GRS1
+   K01881 hits 1 # E6.1.1.15, proS
+   K01883 hits 1 # E6.1.1.16A, cysS
+   K01885 hits 1 # E6.1.1.17, gltX
+   K01887 hits 1 # E6.1.1.19, argS
+   K01889 hits 1 # E6.1.1.20A, pheS
+   K01890 hits 1 # E6.1.1.20B, pheT
+   K01892 hits 1 # E6.1.1.21S, hisS
+   K01893 hits 1 # E6.1.1.22, asnS
+   K04567 hits 1 # LYSU, KARS
+path 01051 fam0 2 fam-found 2 # Biosynthesis of ansamycins
+   K00615 hits 1 # E2.2.1.1, tktA, tktB
+   K01820 hits 1 # E5.3.1.-
+path 01055 fam0 1 fam-found 1 # Biosynthesis of vancomycin group antibiotics
+   K01710 hits 1 # E4.2.1.46, rfbB
+path 02010 fam0 293 fam-found 13 # ABC transporters - General
+   K02003 hits 1 # ABC.CD.A
+   K02004 hits 1 # ABC.CD.P
+   K02013 hits 1 # ABC.FEV.A
+   K02015 hits 1 # ABC.FEV.P
+   K02016 hits 1 # ABC.FEV.S
+   K02032 hits 1 # ABC.PE.A1
+   K02033 hits 1 # ABC.PE.P
+   K02034 hits 1 # ABC.PE.P1
+   K02035 hits 1 # ABC.PE.S
+   K02065 hits 1 # ABC.X1.A
+   K02066 hits 1 # ABC.X1.P
+   K02067 hits 1 # ABC.X1.S
+   K05776 hits 1 # modF
+path 03010 fam0 147 fam-found 51 # Ribosome
+   K02863 hits 1 # RP-L1, rplA
+   K02864 hits 1 # RP-L10, rplJ
+   K02867 hits 1 # RP-L11, rplK
+   K02871 hits 1 # RP-L13, rplM
+   K02874 hits 1 # RP-L14, rplN
+   K02876 hits 1 # RP-L15, rplO
+   K02878 hits 1 # RP-L16, rplP
+   K02879 hits 1 # RP-L17, rplQ
+   K02881 hits 1 # RP-L18, rplR
+   K02884 hits 1 # RP-L19, rplS
+   K02886 hits 1 # RP-L2, rplB
+   K02887 hits 1 # RP-L20, rplT
+   K02888 hits 1 # RP-L21, rplU
+   K02890 hits 1 # RP-L22, rplV
+   K02892 hits 1 # RP-L23, rplW
+   K02895 hits 1 # RP-L24, rplX
+   K02897 hits 1 # RP-L25, rplY
+   K02899 hits 1 # RP-L27, rpmA
+   K02902 hits 1 # RP-L28, rpmB
+   K02904 hits 1 # RP-L29, rpmC
+   K02906 hits 1 # RP-L3, rplC
+   K02907 hits 1 # RP-L30, rpmD
+   K02909 hits 1 # RP-L31, rpmE
+   K02913 hits 1 # RP-L33, rpmG
+   K02916 hits 1 # RP-L35, rpmI
+   K02926 hits 1 # RP-L4, rplD
+   K02931 hits 1 # RP-L5, rplE
+   K02933 hits 1 # RP-L6, rplF
+   K02935 hits 1 # RP-L7, rplL
+   K02939 hits 1 # RP-L9, rplI
+   K02945 hits 1 # RP-S1, rpsA
+   K02946 hits 1 # RP-S10, rpsJ
+   K02948 hits 1 # RP-S11, rpsK
+   K02950 hits 1 # RP-S12, rpsL
+   K02952 hits 1 # RP-S13, rpsM
+   K02954 hits 1 # RP-S14, rpsN
+   K02956 hits 1 # RP-S15, rpsO
+   K02959 hits 1 # RP-S16, rpsP
+   K02961 hits 1 # RP-S17, rpsQ
+   K02963 hits 1 # RP-S18, rpsR
+   K02965 hits 1 # RP-S19, rpsS
+   K02967 hits 1 # RP-S2, rpsB
+   K02968 hits 1 # RP-S20, rpsT
+   K02970 hits 1 # RP-S21, rpsU
+   K02982 hits 1 # RP-S3, rpsC
+   K02986 hits 1 # RP-S4, rpsD
+   K02988 hits 1 # RP-S5, rpsE
+   K02990 hits 1 # RP-S6, rpsF
+   K02992 hits 1 # RP-S7, rpsG
+   K02994 hits 1 # RP-S8, rpsH
+   K02996 hits 1 # RP-S9, rpsI
+path 03020 fam0 59 fam-found 6 # RNA polymerase
+   K03040 hits 1 # RPOA
+   K03043 hits 1 # RPOB
+   K03046 hits 1 # RPOC
+   K03086 hits 1 # SIG1, rpoD
+   K03088 hits 1 # SIG3.2, rpoE
+   K03092 hits 1 # SIG54, rpoN
+path 03030 fam0 50 fam-found 13 # DNA replication
+   K01972 hits 1 # E6.5.1.2, ligA, ligB
+   K02314 hits 1 # DNAB
+   K02316 hits 1 # DNAG
+   K02335 hits 1 # DPO1, polA
+   K02337 hits 1 # DPO3A1, dnaE
+   K02338 hits 1 # DPO3B, dnaN
+   K02340 hits 1 # DPO3D1, holA
+   K02341 hits 1 # DPO3D2, holB
+   K02342 hits 1 # DPO3E, dnaQ
+   K02343 hits 1 # DPO3G, dnaX
+   K03111 hits 1 # SSB
+   K03469 hits 1 # E3.1.26.4A, RNASEH1, rnhA
+   K03470 hits 1 # E3.1.26.4B, rnhB
+path 03060 fam0 24 fam-found 12 # Protein export
+   K03070 hits 1 # SECA
+   K03075 hits 1 # SECG
+   K03076 hits 1 # SECY
+   K03100 hits 1 # E3.4.21.89, SPASEI, lepB
+   K03101 hits 1 # E3.4.23.36, SPASEII, lspA
+   K03106 hits 1 # SRP54, ffh
+   K03110 hits 1 # SRPR, ftsY
+   K03116 hits 1 # TATA
+   K03118 hits 1 # TATC
+   K03210 hits 1 # YAJC
+   K03217 hits 1 # YIDC, spoIIIJ, OXA1
+   K03424 hits 1 # TATD
+path 03090 fam0 78 fam-found 1 # Type II secretion system
+   K02238 hits 1 # COMEC
+path 03320 fam0 58 fam-found 2 # PPAR signaling pathway
+   K00507 hits 1 # SCD
+   K01897 hits 1 # E6.2.1.3, fadD
+path 03410 fam0 34 fam-found 6 # Base excision repair
+   K01142 hits 1 # E3.1.11.2, xthA
+   K01972 hits 1 # E6.5.1.2, ligA, ligB
+   K02335 hits 1 # DPO1, polA
+   K03575 hits 1 # MUTY
+   K03648 hits 1 # UNG, UDG
+   K07462 hits 1 # RECJ
+path 03420 fam0 48 fam-found 6 # Nucleotide excision repair
+   K01972 hits 1 # E6.5.1.2, ligA, ligB
+   K02335 hits 1 # DPO1, polA
+   K03657 hits 1 # UVRD, pcrA
+   K03701 hits 1 # UVRA
+   K03702 hits 1 # UVRB
+   K03723 hits 1 # MFD
+path 03430 fam0 32 fam-found 7 # Mismatch repair
+   K01972 hits 1 # E6.5.1.2, ligA, ligB
+   K03111 hits 1 # SSB
+   K03555 hits 1 # MUTS
+   K03572 hits 1 # MUTL
+   K03657 hits 1 # UVRD, pcrA
+   K07456 hits 1 # MUTS2
+   K07462 hits 1 # RECJ
+path 03440 fam0 46 fam-found 12 # Homologous recombination
+   K01159 hits 1 # RUVC
+   K02335 hits 1 # DPO1, polA
+   K03111 hits 1 # SSB
+   K03550 hits 1 # RUVA
+   K03551 hits 1 # RUVB
+   K03553 hits 1 # RECA
+   K03584 hits 1 # RECO
+   K03629 hits 1 # RECF
+   K03655 hits 1 # RECG
+   K04066 hits 1 # PRIA
+   K06187 hits 1 # RECR
+   K07462 hits 1 # RECJ
+path 04210 fam0 63 fam-found 1 # Apoptosis
+   K01173 hits 1 # E3.1.30.-
+path 04612 fam0 41 fam-found 1 # Antigen processing and presentation
+   K04079 hits 1 # HTPG, HSP90A
+path 04940 fam0 24 fam-found 1 # Type I diabetes mellitus
+   K04077 hits 1 # GROEL, HSPD1

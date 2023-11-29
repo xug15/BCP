@@ -37,10 +37,10 @@ cd ../..
 ## 3. Annotation pathway and gene in bacteria.
 ```sh
 
-abun='data/annotation/16s.abun.tsv'
-fasta='data/annotation/16s_sequence.fa'
-output='data/annotation/mic'
-python script/otu2abun.py -i data/otu/16s_sequence.fa -o data/otu/16s_abuns.tsv  
+abun='data/otu/16s.abun.tsv'
+fasta='data/otu/16s_sequence.fa'
+output='data/otu/mic'
+python script/otu2abun.py -i data/otu/16s_sequence.fa -o data/otu/16s.abun.tsv 
 echo "MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose"
 MicFunPred_run_pipeline.py -i ${abun} -r ${fasta} -o ${output} -t 10 --verbose
 

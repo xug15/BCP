@@ -1,0 +1,50 @@
+Adhaeribacter	3.0
+Algibacter	3.33
+Alkalibacterium	5.0
+Ammoniphilus	1.0
+Anaeromyxobacter	2.0
+Arthrobacter	5.5
+Bacillus	10.3
+Bradyrhizobium	1.11
+Bryobacter	2.0
+Bryocella	
+Burkholderia	4.91
+Chthonomonas	
+Citrobacter	7.76
+Conexibacter	1.0
+Corallococcus	3.25
+Dactylosporangium	
+Diplorickettsia	
+Edaphobacter	1.0
+Flavisolibacter	2.33
+Flavobacterium	4.45
+Gemmatimonas	1.67
+Haliangium	2.0
+Hamadaea	
+Hyphomicrobium	1.0
+Inquilinus	1.33
+Kitasatospora	8.8
+Labrys	3.0
+Leucobacter	2.0
+Mesorhizobium	1.86
+Methylocapsa	2.0
+Mycobacterium	1.36
+Nitrospira	1.2
+Nocardioides	2.59
+Ohtaekwangia	
+Paenarthrobacter	5.5
+Paenibacillus	10.14
+Pedobacter	4.0
+Pseudomonas	5.58
+Pseudonocardia	3.35
+Pseudorhodoferax	
+Rhizobium	3.21
+Rhodococcus	4.15
+Rhodoplanes	1.0
+Roseiarcus	
+Rubrobacter	1.0
+Solirubrobacter	1.0
+Sphingomonas	1.88
+Spirochaeta	2.6
+Streptomyces	6.21
+Terrabacter	2.25
